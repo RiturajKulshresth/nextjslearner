@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   images: {
     domains: [], // Add external domains if needed
   },
+  // experimental:{
+  //   ppr: 'incremental',
+  // }
 };
 
 export default nextConfig;
